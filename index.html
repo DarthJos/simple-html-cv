@@ -14,49 +14,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi CV</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="container">
-        <img class="image-profile" src="" alt="">
-        <h1>Josimar Reyes Campos</h1>
-        <hr>
+        <div class="img-container">
+            <h1>Josimar Reyes Campos</h1>
+            <img class="image-profile" src="./person-image.avif" alt="">
+        </div>
         <section>
-            <h2>Sobre mí</h2>
+            <h2 id="about">Sobre mí</h2>
                 <p class="profile-description">
                     Mi objetivo es lograr el correcto desempeño, éxito y mejora continua de los proyectos, áreas, cargos o empresas donde se involucre mi participación profesional y personal, teniendo siempre en cuenta la ética, el sentido humano y el compromiso con el desarrollo social.
                 </p>
         </section>
         <section>
             <h2>Datos Personales</h2>
+            <div class="card">
                 <ul>
                     <li>josi.reyescampos@gmail.com</li>
                     <li>271-152-8209</li>
                 </ul>
+            </div>
         </section>
         <section>
             <h2>Estudios</h2>
+            <div class="card">
                 <h3>Master en Sistemas Computacionales (MSC) [2018 - 2021]</h3>
-                    <h4>Instituto Tecnológico Nacional de México - Campus Orizab</h4>
+                    <h4>Instituto Tecnológico Nacional de México - Campus Orizaba</h4>
                 <h3>Máster en Innovación para el Desarrollo Empresarial (MID) [2013 - 2015]</h3>
                     <h4>Instituto Tecnológico y de Estudios Superiores de Monterrey</h4>
                 <h3>Ingeniero en Tecnologías Computacionales (ITC) [2008 - 2013]</h3>
                     <h4>Instituto Tecnológico y de Estudios Superiores de Monterrey - Campus Veracruz</h4>
                 <h3>Preparatoria Bilingüe (PBB) [2005 - 2008</h3>
                     <h4>Instituto Tecnológico y de Estudios Superiores de Monterrey - Campus Veracruz</h4>
+            </div>
         </section>
-        <section>
-            <h2>Habilidades</h2>
-                <ul class="skills">
-                    <li>Comunicación</li>
-                    <li>Trabajo en equipo</li>
-                    <li>Administración de tiempo</li>
-                    <li>Trabajo enfocado en objetivos</li>
-                </ul>
-        </section>
+        
         <section>
             <h2>Experiencia Laboral</h2>
+            <div class="card">
                 <h3>Desarrollador Front End (2021 - presente)</h3>
-                    <h2>HSBC - Global Hitss</h2>
+                    <h4>HSBC - Global Hitss</h2>
                     <p>Desarrollo de componentes Front End para la Banca en
                         Línea de HSBC México, que incluye el debug de componentes previos,
                         desarollo de interfaces, conexion a servicios API, desarrollo de pruebas
@@ -64,24 +63,41 @@
                         documentación de actividades en Jira y Confluence y configuración de
                         las interfaces en pre-produción con Adobe Experience Manager.</p>
                 <h3>Desarrollador Full Stack (2019 - 2021)</h3>
-                    <h2>RODAS Computación S.A.</h2>
+                    <h4>RODAS Computación S.A.</h4>
                     <p>Desarrollo de plataforma de control domótico inteligente;
                         aprende el comportamiento de los usuarios de un inmueble mediante
                         algoritmos de Machine Learning para controlar sus dispositivos de
                         forma autónoma. Los usarios interactúan con el sistema mediante una
                         app móvil.</p>
                 <h3>Desarrollador Front End (2020)</h3>
-                    <h2>Instituto Tecnológico Nacional de México - Campus Orizaba</h2>
+                    <h4>Instituto Tecnológico Nacional de México - Campus Orizaba</h4>
                     <p>Desarrollo del repositorio de documentos académicos del
                         ITO.</p>
+            </div>
         </section>
-        <section>
-            <h2>Hobbies</h2>
-                <ul>
-                    <li>Videojuegos</li>
-                    <li>Peliculas</li>
-                    <li>Gimnasio</li>
-                </ul>
+        <section class="double-containers">
+            <article class="medium-container">
+                <h2>Habilidades</h2>
+                <div class="card">
+                    <ul class="skills">
+                        <li>Comunicación</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Administración de tiempo</li>
+                        <li>Trabajo enfocado en objetivos</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="medium-container">
+                <h2>Hobbies</h2>
+                <div class="card">
+                    <ul class="skills">
+                        <li>Videojuegos</li>
+                        <li>Libros</li>
+                        <li>Peliculas</li>
+                        <li>Gimnasio</li>
+                    </ul>
+                </div>
+            </article>
         </section>
     </div>
 </body>
