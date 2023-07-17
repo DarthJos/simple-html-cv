@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(201, 202, 203), rgb(100, 100, 102));
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 700;
+}
+
+h2 {
+    padding: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(0, 151, 222);
+}
+
+h3 {
+    margin-bottom: 2px;
+}
+
+h4 {
+    font-weight: 400;
+    margin-top: 0;
+    color: rgb(0, 151, 222);
+}
+
+
+.container {
+    margin-top: 10px;
+    padding: 50px;
+    max-width: 60%;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+#about {
+    background-color: rgb(14, 107, 179);
+}
+
+.img-container {
+    background-color: rgb(201, 202, 203);
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: inset 1px 1px 6px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.image-profile {
+    max-width: 15%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+.profile-description {
+    padding: 20px;
+    color: white;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.826);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    background-color: rgb(228, 225, 225);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.skills {
+    list-style: none;
+}
+
+.double-containers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.medium-container {
+    width: 45%;
+}
